@@ -149,4 +149,4 @@ MySQL
 
 - ### Caso de uso "Registra salida"
 
-  1.Utilizando el botón de `Sing out` se cerrará la sesión y se redireccionará al menú principal para poder seguir navegando por la página en caso de querer.
+  1.Utilizando el botón de `Log out` se cerrará la sesión y se redireccionará al menú principal para poder seguir navegando por la página en caso de querer.
