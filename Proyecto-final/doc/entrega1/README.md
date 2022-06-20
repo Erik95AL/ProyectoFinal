@@ -113,27 +113,27 @@ MySQL
 ## Wireframes
 
 -Index
-![mokup](./Wireframes/index.png)
+![mokup](./index.png)
 
 -Menu
-![mokup](./Wireframes/menu.png)
+![mokup](./menu.png)
 
 -Producto seleccionado
-![mokup](./Wireframes/producto.png)
+![mokup](./producto.png)
 
 -Sign In
-![mokup](./Wireframes/sigin.png)
+![mokup](./sigin.png)
 
 -Log In
-![mokup](./Wireframes/login.png)
+![mokup](./login.png)
 
 ## Paths
 
-![mokup](./Wireframes/Path/path1.png)
+![mokup](./path1.png)
 
 ## Mokups
 
-![mokup](./Wireframes/Mokup/Mokup1.png)
+![mokup](./Mokup1.png)
 
 ## Casos de uso
 
