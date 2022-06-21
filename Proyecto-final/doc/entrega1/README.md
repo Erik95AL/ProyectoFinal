@@ -122,9 +122,11 @@ MySQL
 ![mokup](./producto.png)
 
 -Sign In
+
 ![mokup](./sigin.png)
 
 -Log In
+
 ![mokup](./login.png)
 
 ## Paths
@@ -138,6 +140,10 @@ MySQL
 ## Casos de uso
 
 -Registra nuevos usuarios y vincula sus datos, de esta forma se puede mantener al día a todos los usuarios de ofertas o nuevos productos.
+
+- re
+- jg
+- khjn
 
 ### Explicación de los casos de uso
 
