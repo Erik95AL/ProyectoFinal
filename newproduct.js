@@ -30,3 +30,5 @@ $.ajax({
 		console.log("ERROR: " + error);
 	},
 });
+
+document;
