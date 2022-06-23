@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link href="/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<form
+			class="formcenter indexmain"
+			method="get"
+			action="newproduct.js"
+			target="_blank"
+		>
+			<fieldset class="index cajetincenter btcenter">
+				<legend>Info BMX Data</legend>
+				<div>
+					<label>Name to product:</label>
+					<input type="text" name="nameProduct" id="nameProduct" />
+				</div>
+				<div>
+					<label>Cost to the product:</label>
+					<input type="text" name="costProduct" id="costProduct" />
+				</div>
+				<div>
+					<label>Location or link:</label>
+					<input type="text" name="locationLink" id="locationLink" />
+				</div>
+				<div>
+					<label>Size and color:</label>
+					<input type="text" name="sizeColor" id="sizeColor" />
+					<input type="color" name="onlyColor" id="onlyColor" />
+				</div>
+				<div>
+					<label>Add a image to the product:</label>
+					<input type="file" name="imageProduct" id="imageProduct" />
+				</div>
+
+				<div>
+					<label for="html"> Register info to the product:</label>
+					<input
+						type="radio"
+						name="radio"
+						onclick="document.getElementById('textArea').style.visibility='visible' "
+						checked
+					/>
+					<label for="html">Simple info:</label>
+					<input
+						type="radio"
+						name="radio"
+						onclick="document.getElementById('textArea').style.visibility='hidden';"
+					/>
+				</div>
+
+				<div id="textArea">
+					<label>Add a image to the product:</label>
+					<textarea></textarea>
+				</div>
+
+				<div class="btcenter">
+					<input class="bt" type="submit" name="submit" />
+				</div>
+				<div>
+					<input class="bt" type="reset" name="reset" />
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
