@@ -11,6 +11,7 @@ switch ($_POST["newProduct"]) {
         break;
 }
 
+
 function peticion1()
 {
     $conn = new mysqli("localhost", "root", "");
