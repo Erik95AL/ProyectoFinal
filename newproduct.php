@@ -1,55 +1,12 @@
 <?php
-switch ($_POST["newProduct"]) {
-    case 1:
-        peticion1();
-        break;
-    case 2:
-        peticion2();
-        break;
-    case 3:
-        peticion3();
+switch ($_POST['api']) {
+
+    case "crearNuevoproducto":
+        crearProducto($_POST['nombre'], $_POST['coste'], $_POST['localizacion'], $_POST['tallas'], $_POST['color'], $_POST['imagen'], $_POST['textArea']);
         break;
 }
 
-
-function peticion1()
+function crearProducto($nombre, $coste, $localizacion, $tallas, $color, $imagen, $textArea)
 {
-    $conn = new mysqli("localhost", "root", "");
-    if ($conn->connect_error) {
-        die("Connection failed" . $conn->connect_error);
-    }
-    echo "Connected sucessfully";
-    $conn->close();
-}
-
-function peticion2()
-{
-    $conn = new mysqli("localhost", "root", "");
-    if ($conn->connect_error) {
-        die("Connection failed" . $conn->connect_error);
-    }
-    // echo "Connected sucessfully";
-
-    //
-    $conn->close();
-    $sql = "CREATE DATABASE info BMX";
-    if ($conn->query($sql) === TRUE) {
-        echo "Create database \"info BMX\"";
-    } else {
-        echo "Error: create database \"info BMX\" " . $conn->error;
-    }
-
-    //
-    $conn->close();
-}
-
-function peticion3()
-{
-    $conn = new mysqli("localhost", "root", "");
-    $sql = "DROP DATABASE IF EXISTS info BMX";
-    if ($conn->query($sql) === TRUE) {
-        echo "Create database \"info BMX\"";
-    } else {
-        echo "Error: create database \"info BMX\" " . $conn->error;
-    }
+    $sql = "INSERT INTO tablaproducto(nombre,coste,localizacion,tallas,color,imagen,textArea,reg_date) VALUES('" . $nombre . "','" . $coste . "','" . $localizacion . "','" . $tallas . "','" . $color . "','" . $imagen . "','" . $textArea . "')";
 }

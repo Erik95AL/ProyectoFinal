@@ -8,14 +8,12 @@
 		<title>Document</title>
 
 		<link href="/style.css" rel="stylesheet" />
+		<script defer src="/newproduct.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	</head>
 	<body>
-		<form
-			class="formcenter indexmain"
-			method="POST"
-			action="/newproduct.js"
-			target="_blank"
-		>
+		<div class="formcenter indexmain">
 			<fieldset class="index cajetincenter btcenter">
 				<legend>Info BMX Data</legend>
 				<div>
@@ -62,12 +60,9 @@
 				</div>
 
 				<div class="btcenter">
-					<input class="bt" type="submit" name="submit" />
-				</div>
-				<div>
-					<input class="bt" type="reset" name="reset" />
+					<button class="bt" onclick="enviarDatos()">Enviar</button>
 				</div>
 			</fieldset>
-		</form>
+		</div>
 	</body>
 </html>
