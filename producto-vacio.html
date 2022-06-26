@@ -17,6 +17,7 @@
 			href="/libs/bootstrap-4.6.1-dist/css/bootstrap.min.css"
 			rel="stylesheet"
 		/>
+        
 		<!-- Scripts -->
 		<script
 		src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -32,6 +33,10 @@
 		<script
 			src="/libs/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"
 		></script>
+
+        <script defer src="/newproduct.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- Style -->
 		<style>
@@ -57,6 +62,7 @@
 							<ul class="list-unstyled">
 								<li><a href="https://www.twitter.com" class="text-white">Follow on Twitter</a></li>
 								<li><a href="https://www.facebook.com" class="text-white">Like on Facebook</a></li>
+                                <li><a href="/producto-vacio.html" class="text-white">Add new product</a></li>
 								<li><a href="#" class="text-white">Email me</a></li>
 								<br/>
 							</ul>
@@ -206,24 +212,39 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-7" >
-					<img
-						src="./src/img/cinema-tilt-bmx-pedals-3y.jpg"
-						width="420px"
-						height="200px"
+                    <img
+                    src="./src/img/cinema-tilt-bmx-pedals-3y.jpg"
+                    width="420px"
+                    height="200px"
 					/>
+                    <div>
+                        <label>Add a image to the product:</label>
+                        <input type="file" name="imageProduct" id="imageProduct" />
+                    </div>
 				</div>
 
 				<div class="col-12 col-md-5 overflowdiv" >
 					<h3>Product name or model</h3>
+                    <div>
+                        <input type="text" name="nameProduct" id="nameProduct" placeholder="Name to product:"/>
+                    </div>
 					<h5>Price</h5>
-						<p>Sizes</p>
+                    <div>
+                        <input type="text" name="costProduct" id="costProduct" placeholder="Price to the product:" />
+                    </div>
+						<h5>Sizes</h5>
+                        <div>
+                            <input type="text" name="sizeColor" id="sizeColor" placeholder="Size and color:" />
+                            <input type="color" name="onlyColor" id="onlyColor" />
+                        </div>
+                    <br/>
 					<select>
 						
-						<option>Pro S</option>
-						<option>Pro M</option>
-						<option>Pro L</option>
-						<option>Pro XL</option>
-						<option>Pro XXL</option>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+						<option>XL</option>
+						<option>XXL</option>
 					
 					</select>
 				</div>
@@ -235,16 +256,10 @@
 			<h3>Description</h3>
 			<h4>Description Title</h4>
 			<p>Description goes here!</p>
-			<h4>Details</h4>
-			<p>
-				<ul>
-					<li>More details!</li>
-					<li>More details!</li>
-					<li>More details!</li>
-					<li>More details!</li>
-					<li>More details!</li>					
-				</ul>
-			</p>
+            <div id="textArea">
+                <textarea style="width:600px; height: 400px;" placeholder="Add definition to the product:"></textarea>
+            </div>
+			
 		</div>
 		<br/>
 		<hr/>
@@ -260,9 +275,11 @@
 			  <th>Country</th>
 			</tr>
 			<tr>
-                <td>Name of the page or the store</td>
-                <td><a href="https://example.com">https://example.com</a></td>
-                <td>Location</td>
+                <td>
+                    <input type="text" name="nameStore" id="locationLink" placeholder="Name of the page or the store"  />
+                </td>
+                <td><a></a><input type="text" name="addLink" id="locationLink" placeholder="Link"/></td>
+                <td><input type="text" name="addLocation" id="locationLink" placeholder="Location" /></td>
 			</tr>
 			<tr>
                 <td>Name of the page or the store</td>
@@ -270,10 +287,6 @@
                 <td>Location</td>
 			</tr>
 			<tr>
-                <td>Name of the page or the store</td>
-                <td><a href="https://example.com">https://example.com</a></td>
-                <td>Location</td>
-			</tr><tr>
                 <td>Name of the page or the store</td>
                 <td><a href="https://example.com">https://example.com</a></td>
                 <td>Location</td>
@@ -282,8 +295,11 @@
 			</div>
 		</div>
         <br />
-        <div  style="width:150px; margin:auto">
+        <!-- <div  style="width:150px; margin:auto">
 		    <button src="./index.html">Add a new product!</button>
+        </div> -->
+        <div style="width:150px; margin:auto">
+            <button class="bt" onclick="enviarDatos()">Add a new product!</button>
         </div>
     	<hr />
 

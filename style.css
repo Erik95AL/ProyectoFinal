@@ -40,9 +40,6 @@ body {
 div.formcenter label {
 	display: block;
 }
-.formcenter pepe {
-	display: inline;
-}
 .formcenter select {
 	cursor: pointer;
 }

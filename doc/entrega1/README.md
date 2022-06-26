@@ -48,15 +48,15 @@ Querría crear una página web para facilitar las busquedas de piezas de BMX, ut
   Buscador de piezas
   / Me terminé decantando por una página donde sea de mucha utilidad, reagrupando todos los productos posibles y así facilitar la busqueda a los clientes.
 
-# Nombre del proyecto:
+## Nombre del proyecto:
 
 **_Info BMX_**
 
-## Descripcion del proyecto:
+### Descripcion del proyecto:
 
 Este proyecto será un FrontEnd dónde se pueda buscar piezas en concreto y su disponibilidad, así los usuarios tendrán más facilidad a la hora de encontrar piezas más concretas y en que lugar encontrarlas.
 
-## Descripcion de las carcteristicas
+### Descripcion de las carcteristicas
 
 Es una web que permite a todos los usuarios que quieran el poder encontrar piezas en concreto y su disponibilidad, incluyendo especificaciones, detalles, tallas, medidas, etc. Tiene como base poder hacer más fácil la busqueda de productos específicos.
 
@@ -64,9 +64,9 @@ Es una web que permite a todos los usuarios que quieran el poder encontrar pieza
 
 Toda la gente que practique BMX o que esté interesada en comprar algun producto del mismo, ya sea para uso particular, comercial o profesional, e incluso para tiendas que quieran o necesiten algunas piezas. Desde los más pequeños hasta los más mayores.
 
-# Documentacion técnica
+## Documentacion técnica
 
-## Base
+### Base
 
 Se crearan 5 html estáticas y estos tendran **cargas dinámicas de otros ficheros** para importar fragmentos como el menu y otras partes de la página...
 Se utilizará CSS y o Boostrap para partes del diseño de la misma, incluso para una mejora en la usabilidad de la página.
@@ -79,7 +79,7 @@ También se utilizará JS para conseguir un diseño algo más vistoso y así con
 Utilizaré GitHub para llevar el control de versiones, se utilizará la web "http://phpmyadmin.net" para tener una DB local en internet 24/7, también se utilizará Freenom para establecer un dominio fijo para la página.
 Se utilizará composer para mantener las librerias actualizadas.
 
-#### Lenguajes
+### Lenguajes
 
 HTML
 CSS
@@ -89,36 +89,40 @@ MySQL
 
 ## Diagrama de grantt
 
-| Días/Lang | HTML   | CSS    | JS     | PHP    | MySQL  |
-| --------- | ------ | ------ | ------ | ------ | ------ |
-| Día 1     | **Sí** | **Sí** | No     | No     | No     |
-| Día 2     | **Sí** | **Sí** | No     | No     | No     |
-| Día 3     | **Sí** | **Sí** | No     | No     | No     |
-| Día 4     | **Sí** | **Sí** | No     | No     | No     |
-| Día 5     | **Sí** | **Sí** | No     | No     | No     |
-| Día 6     | **Sí** | **Sí** | No     | No     | No     |
-| Día 7     | **Sí** | **Sí** | No     | No     | No     |
-| Día 8     | No     | No     | **Sí** | No     | No     |
-| Día 9     | No     | No     | **Sí** | No     | No     |
-| Día 10    | No     | No     | **Sí** | No     | No     |
-| Día 11    | **Sí** | No     | **Sí** | No     | No     |
-| Día 12    | No     | No     | No     | **Sí** | **Sí** |
-| Día 13    | No     | No     | No     | **Sí** | **Sí** |
-| Día 14    | No     | No     | No     | **Sí** | **Sí** |
-| Día 15    | **Sí** | **Sí** | **Sí** | No     | No     |
-| Día 16    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
-| Día 17    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
-| Día 18    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
+| Días/Lang | HTML | CSS | JS  | PHP | MySQL |
+| --------- | ---- | --- | --- | --- | ----- |
+| Día 1     | 5h   | 5h  | 0h  | 0h  | 0h    |
+| Día 2     | 2h   | 4h  | 0h  | 0h  | 0h    |
+| Día 3     | 5h   | 2h  | 0h  | 0h  | 0h    |
+| Día 4     | 2h   | 0h  | 2h  | 0h  | 0h    |
+| Día 5     | 0h   | 3h  | 2h  | 0h  | 0h    |
+| Día 6     | 1h   | 2h  | 2h  | 0h  | 0h    |
+| Día 7     | 2h   | 1h  | 1h  | 0h  | 0h    |
+| Día 8     | 3h   | 2h  | 2h  | 0h  | 0h    |
+| Día 9     | 0h   | 3h  | 2h  | 0h  | 0h    |
+| Día 10    | 4h   | 2h  | 3h  | 2h  | 2h    |
+| Día 11    | 2h   | 4h  | 1h  | 0h  | 0h    |
+| Día 12    | 1h   | 2h  | 2h  | 0h  | 0h    |
+| Día 13    | 1h   | 4h  | 1h  | 0h  | 0h    |
+| Día 14    | 2h   | 1h  | 2h  | 0h  | 0h    |
+| Día 15    | 2h   | 2h  | 2h  | 0h  | 0h    |
+| Día 16    | 0h   | 0h  | 1h  | 2h  | 2h    |
+| Día 17    | 3h   | 0h  | 2h  | 0h  | 0h    |
+| Día 18    | 5h   | 2h  | 2h  | 1h  | 2h    |
+| Día 19    | 3h   | 2h  | 1h  | 1h  | 2h    |
 
 ## Wireframes
 
 -Index
+
 ![mokup](./index.png)
 
 -Menu
+
 ![mokup](./menu.png)
 
 -Producto seleccionado
+
 ![mokup](./producto.png)
 
 -Sign In
@@ -147,12 +151,12 @@ MySQL
 
 ### Explicación de los casos de uso
 
-- ### Caso de uso "Registra entrada"
+- #### Caso de uso "Registra entrada"
 
   1.Utilizando el botón de `Sign In` se redirecciona a una página a parte con un formulario para rellenar los datos y así guardarlos en una base de datos. De esta forma se pueden aplicar algunos de los datos introducidos para facilitar las busquedas.
 
   2.Utilizando el botón de `Log In` se redirecciona a una página a parte con un formulario para rellenar los datos y así buscarlos en una base de datos. En el caso de que coincidan los datos introducidos se volverá a la página principal, en el caso de que **no** coincidan los datos, dará error y no se podrá acceder a la cuenta, de todas formas se podría seguir utilizando la página, pero sin poder contactar o tener una busqueda más precisa.
 
-- ### Caso de uso "Registra salida"
+- #### Caso de uso "Registra salida"
 
   1.Utilizando el botón de `Log out` se cerrará la sesión y se redireccionará al menú principal para poder seguir navegando por la página en caso de querer.
