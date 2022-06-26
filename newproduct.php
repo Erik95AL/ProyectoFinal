@@ -12,4 +12,4 @@ function crearProducto($nombre, $coste, $localizacion, $tallas, $color, $imagen,
     $sql = "INSERT INTO tablaproducto(nombre,coste,localizacion,tallas,color,imagen,textArea,reg_date) VALUES('" . $nombre . "','" . $coste . "','" . $localizacion . "','" . $tallas . "','" . $color . "','" . $imagen . "','" . $textArea . "')";
 }
 
-//hacer define("dataloquesea",'localhost') fuera sin comillas dobles el dataloquesea
+//hacer define("dataloquesea",'localhost') fuera sin comillas dobles el dataloquesea.
