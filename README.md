@@ -78,30 +78,31 @@ etc
 
 ## Diagrama de grantt
 
-| Días/Lang | HTML   | CSS    | JS     | PHP    | SQL    |
-| --------- | ------ | ------ | ------ | ------ | ------ |
-| Día 1     | 5h     | **Sí** | No     | No     | No     |
-| Día 2     | **Sí** | **Sí** | No     | No     | No     |
-| Día 3     | **Sí** | **Sí** | No     | No     | No     |
-| Día 4     | **Sí** | **Sí** | No     | No     | No     |
-| Día 5     | **Sí** | **Sí** | No     | No     | No     |
-| Día 6     | **Sí** | **Sí** | No     | No     | No     |
-| Día 7     | **Sí** | **Sí** | No     | No     | No     |
-| Día 8     | No     | No     | **Sí** | No     | No     |
-| Día 9     | No     | No     | **Sí** | No     | No     |
-| Día 10    | No     | No     | **Sí** | No     | No     |
-| Día 11    | **Sí** | No     | **Sí** | No     | No     |
-| Día 12    | No     | No     | No     | **Sí** | **Sí** |
-| Día 13    | No     | No     | No     | **Sí** | **Sí** |
-| Día 14    | No     | No     | No     | **Sí** | **Sí** |
-| Día 15    | **Sí** | **Sí** | **Sí** | No     | No     |
-| Día 16    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
-| Día 17    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
-| Día 18    | **Sí** | **Sí** | **Sí** | **Sí** | **Sí** |
+| Días/Lang | HTML | CSS | JS  | PHP | MySQL |
+| --------- | ---- | --- | --- | --- | ----- |
+| Día 1     | 5h   | 5h  | 0h  | 0h  | 0h    |
+| Día 2     | 2h   | 4h  | 0h  | 0h  | 0h    |
+| Día 3     | 5h   | 2h  | 0h  | 0h  | 0h    |
+| Día 4     | 2h   | 0h  | 2h  | 0h  | 0h    |
+| Día 5     | 0h   | 3h  | 2h  | 0h  | 0h    |
+| Día 6     | 1h   | 2h  | 2h  | 0h  | 0h    |
+| Día 7     | 2h   | 1h  | 1h  | 0h  | 0h    |
+| Día 8     | 3h   | 2h  | 2h  | 0h  | 0h    |
+| Día 9     | 0h   | 3h  | 2h  | 0h  | 0h    |
+| Día 10    | 4h   | 2h  | 3h  | 2h  | 2h    |
+| Día 11    | 2h   | 4h  | 1h  | 0h  | 0h    |
+| Día 12    | 1h   | 2h  | 2h  | 0h  | 0h    |
+| Día 13    | 1h   | 4h  | 1h  | 0h  | 0h    |
+| Día 14    | 2h   | 1h  | 2h  | 0h  | 0h    |
+| Día 15    | 2h   | 2h  | 2h  | 0h  | 0h    |
+| Día 16    | 0h   | 0h  | 1h  | 4h  | 2h    |
+| Día 17    | 3h   | 0h  | 2h  | 0h  | 0h    |
+| Día 18    | 5h   | 2h  | 2h  | 1h  | 2h    |
+| Día 19    | 3h   | 2h  | 1h  | 1h  | 2h    |
 
 ## wireframes
 
-![mokup](./loquesea/algo/yata.jpeg)
+![mokup](./loquesea/algo/imagen.jpeg)
 
 ## Paths
 
