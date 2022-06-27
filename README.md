@@ -68,9 +68,13 @@ Se utilizará composer para mantener las librerias actualizadas.
 
 ### Lenguajes
 
-HTML
-CSS
+HTML5
+CSS3
 JS
+bibliotecas
+boostrap
+jqery
+etc
 
 ## Diagrama de grantt
 

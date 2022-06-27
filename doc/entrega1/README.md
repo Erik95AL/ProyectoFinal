@@ -106,7 +106,7 @@ MySQL
 | Día 13    | 1h   | 4h  | 1h  | 0h  | 0h    |
 | Día 14    | 2h   | 1h  | 2h  | 0h  | 0h    |
 | Día 15    | 2h   | 2h  | 2h  | 0h  | 0h    |
-| Día 16    | 0h   | 0h  | 1h  | 2h  | 2h    |
+| Día 16    | 0h   | 0h  | 1h  | 4h  | 2h    |
 | Día 17    | 3h   | 0h  | 2h  | 0h  | 0h    |
 | Día 18    | 5h   | 2h  | 2h  | 1h  | 2h    |
 | Día 19    | 3h   | 2h  | 1h  | 1h  | 2h    |

@@ -11,32 +11,40 @@
 		<title>Info BMX</title>
 
 		<!-- Links -->
+		
 		<link href="/producto.css" rel="stylesheet">
 		
-		<link
-			href="/libs/bootstrap-4.6.1-dist/css/bootstrap.min.css"
-			rel="stylesheet"
-		/>
-        
-		<!-- Scripts -->
-		<script
-		src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-		<script>
+		<!-- <script>
 			window.jQuery ||
 				document.write(
 					'<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>'
 				);
-		</script>
+		</script> -->
 
-		<script
+
+		<link
+			href="/libs/bootstrap-4.6.1-dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+        <script
 			src="/libs/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"
 		></script>
+		<!-- Scripts -->
+		<!-- <script
+		src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		></script> -->
 
-        <script defer src="/newproduct.js"></script>
+		
+		
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+
+        
+
+		
+		<script defer src="./newproduct.js"></script>
 
 		<!-- Style -->
 		<style>
@@ -219,8 +227,12 @@
 					/>
                     <div>
                         <label>Add a image to the product:</label>
-                        <input type="file" name="imageProduct" id="imageProduct" />
+                        
+						<input type="file" id="files" />
                     </div>
+					
+					
+					
 				</div>
 
 				<div class="col-12 col-md-5 overflowdiv" >

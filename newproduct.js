@@ -4,10 +4,26 @@ function enviarDatos() {
 	console.log(document.getElementById("addLocation").value);
 	console.log(document.getElementById("sizeColor").value);
 	console.log(document.getElementById("onlyColor").value);
-	console.log(document.getElementById("imageProduct").value);
+	console.log(document.getElementById("files").value);
 	console.log(document.getElementById("textArea").value);
 	console.log(document.getElementById("nameStore").value);
 	console.log(document.getElementById("addLink").value);
+
+	getBase64(document.getElementById("files").files[0]);
+}
+
+function getBase64(file) {
+	var reader = new FileReader();
+	reader.readAsDataURL(file);
+	reader.onload = function () {
+		console.log(reader.result);
+		enviar(reader.result);
+	};
+	reader.onerror = function (error) {
+		console.log("Error: ", error);
+	};
+}
+function enviar(imagenEnTexto) {
 	$.ajax({
 		url: "./newproduct.php",
 		type: "POST",
@@ -18,7 +34,7 @@ function enviarDatos() {
 			localizacion: document.getElementById("addLocation").value,
 			tallas: document.getElementById("sizeColor").value,
 			color: document.getElementById("onlyColor").value,
-			imagen: document.getElementById("imageProduct").value,
+			imagen: imagenEnTexto,
 			textArea: document.getElementById("textArea").value,
 			nameStore: document.getElementById("nameStore").value,
 			addLink: document.getElementById("addLink").value,
