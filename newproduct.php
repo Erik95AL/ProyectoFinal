@@ -21,4 +21,4 @@ function crearProducto($nombre, $coste, $localizacion, $tallas, $color, $imagen,
     $conn->close();
 }
 
-//hacer define("dataloquesea",'localhost') fuera sin comillas dobles el dataloquesea.
+//hacer define("dataloquesea",'localhost') fuera sin comillas dobles el dataloquesea

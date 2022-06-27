@@ -120,3 +120,6 @@ etc
 - #### Caso de uso "Registra salida"
 
   1. Sing out
+
+<a target="_blank" href="https://icons8.com/icon/2x72OL1NCyry/bike">Bike</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+https://iconos8.es/
