@@ -1,5 +1,3 @@
-EXPLICACION DE TPO DE PROYECTO QUE CONTIENE QUE NO ETC LIBRERIAS
-
 # Info BMX
 
 ## Descripción
@@ -8,23 +6,50 @@ Es una web que se centra en facilitar las busquedas de piezas de un deporte que 
 
 ## Contenido
 
-Este repositorio contiene un conjunto de archivos HTML, CSS, JS y PHP. En los cuales se puede ver la base de la idea más desarrollada, con todo lo que he podido aprender hasta ahora. Se han utilizado librerias como boostrap, jquery, ajax y phpMyAdmin.
+Este repositorio se ha creado con los siguientes lenüajes `HTML`, `CSS`, `JS` y `PHP`. En los cuales se puede ver la base de la idea más desarrollada, con todo lo que he podido aprender hasta ahora. Se han utilizado librerias como boostrap, jquery y ajax.
 
-Se puede recoger los datos de los nuevos productos, pero no es posible verlo automáticamente por falta de tiempo, la única forma por ahora sería crear manualmente los documentos de los productos nuevos.
+![Lenguajes](/src/img/lenguajes.png)
+
+Se pueden guardar y utilizar los datos de los nuevos productos gracias al archivo [addproduct.html](/addproduct.html), pero no es posible verlo automáticamente por falta de tiempo, la única forma por ahora sería crear manualmente los documentos con los datos de los productos nuevos.
+
+### Demos (Heroku y dominio a través de Freenom)
+
+[Info BMX Heroku](https://infobmx.herokuapp.com/index.html)
+
+[Info BMX Freenom](https://www.infobmx.tk/)
 
 ## Contenido (restante)
 
 El registro y el inicio de sesión para la página no se ha podido finalizar, ya que han surgido otros problemas a la hora de añadir los nuevos productos.
 
-demos heroku y infobmx.tk
+[LogIn](login.html) `Inicio de sesión`
 
-acceso git hub
+[SignIn](registro.html) `Registro`
 
-links entrega 1 y 2
+## Primera y segunda entrega
 
-puntos fuertes
+[Entrega 1](doc/entrega1/README.md)
 
-estructura (archivos)
+[Entrega 2](doc/entrega2/README.md)
 
-autor
-licencia
+## Estructura de archivos
+
+[Index](index.html) `Página principal`
+
+[LogIn](login.html) `Inicio de sesión`
+
+[SignIn](registro.html) `Registro`
+
+[Producto](producto.html) `(ejemplo de como se verían los demás productos)`
+
+[Addproduct](addproduct.html) `Formulario para añadir nuevos productos`
+
+## Autor
+
+Erik Aguirre Lahora
+
+## Licencia
+
+MIT License
+
+Copyright (c) 2022 Erik95AL
