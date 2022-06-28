@@ -1,39 +1,12 @@
-# Proyecto-final
+# Explicación
 
-Nombre del proyecto : **_Info BMX_**
-
-## Explicación previa
-
-Querría crear una página web para facilitar las busquedas de piezas de BMX, utilizando tanto HTML como CSS y JS. ¡Me gustaría implementar todo lo que he aprendido y más!
-
-## Nombre del proyecto:
-
-**_Info BMX_**
-
-### Descripcion del proyecto:
-
-Este proyecto será un FrontEnd dónde se pueda buscar piezas en concreto y su disponibilidad, así los usuarios tendrán más facilidad a la hora de encontrar piezas más concretas y en que lugar encontrarlas.
-
-### Descripcion de las carcteristicas
-
-Es una web que permite a todos los usuarios que quieran el poder encontrar piezas en concreto y su disponibilidad, incluyendo especificaciones, detalles, tallas, medidas, etc. Tiene como base poder hacer más fácil la busqueda de productos específicos.
-
-## Documentacion técnica
-
-### Base
-
-Se crearan 5 html estáticas y estos tendran **cargas dinámicas de otros ficheros** para importar fragmentos como el menu y otras partes de la página...
-Se utilizará CSS y o Boostrap para partes del diseño de la misma, incluso para una mejora en la usabilidad de la página.
-También se utilizará JS para conseguir un diseño algo más vistoso y así conseguir un diseño más sencillo de comprender.
-
-`También me gustaría añadir algo de BackEnd.` `()`
+Tenía pensado hacer una página web dónde se pudiesen filtrar las busquedas y a la vez poder añadir productos y su ubicación (tanto en físico como en digital). Al final por falta de tiempo no he podido terminar todo lo que me gustaría hacer. Pero me esforzaré por seguir y terminar con este proyecto.
 
 ### Herramientas
 
-Utilizaré GitHub para llevar el control de versiones, se utilizará la web "http://phpmyadmin.net" para tener una DB local en internet 24/7, también se utilizará Freenom para establecer un dominio fijo para la página.
-Se utilizará composer para mantener las librerias actualizadas.
+Git hub, Herouka, Freenom y phpMyAdmin.
 
-(Al final no he podido aplicar tanto tiempo en la base de datos como me hubiese)
+(Al final no he podido aplicar tanto tiempo en la base de datos como me hubiese gustado)
 
 ### Lenguajes
 
@@ -56,7 +29,7 @@ MySQL
 | Día 7     | 2h   | 1h  | 1h  | 0h  | 0h    |
 | Día 8     | 3h   | 2h  | 2h  | 0h  | 0h    |
 | Día 9     | 0h   | 3h  | 2h  | 0h  | 0h    |
-| Día 10    | 4h   | 2h  | 3h  | 2h  | 2h    |
+| Día 10    | 4h   | 2h  | 3h  | 1h  | 0h    |
 | Día 11    | 2h   | 4h  | 1h  | 0h  | 0h    |
 | Día 12    | 1h   | 2h  | 2h  | 0h  | 0h    |
 | Día 13    | 1h   | 4h  | 1h  | 0h  | 0h    |
@@ -87,13 +60,13 @@ Al final no he necesitado un archivo de menu a parte, ya que todo lo que he nece
 
 ![mokup](../entrega1/producto.png)
 
-El diseño no es el mismo a la idea principal, pero el concepto de la misma ses el mismo, simplemente con un diseño distinto.
+El diseño no es el mismo a la idea principal, pero el concepto de la misma es el mismo, simplemente con un diseño distinto.
 
 #### Sign In
 
 ![mokup](../entrega1/sigin.png)
 
-No añadí la petición de un teléfono ya que no vi principalmente la necesidad de pedirlo.
+No añadí la petición de un teléfono ya que no vi la necesidad de pedirlo.
 
 #### Log In
 
@@ -108,7 +81,5 @@ No añadí la petición de un teléfono ya que no vi principalmente la necesidad
 ![mokup](../entrega1/Mokup1.png)
 
 ## Casos de uso
-
--Registra nuevos usuarios y vincula sus datos, de esta forma se puede mantener al día a todos los usuarios de ofertas o nuevos productos.
 
 (No me ha dado tiempo a crear una base de datos para poder registrar a los usuarios de la misma. Pero si he podido crear una base de datos que guarda los productos que añade la gente para poder revisarlos después.)

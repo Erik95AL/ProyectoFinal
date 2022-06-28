@@ -6,11 +6,11 @@ Es una web que se centra en facilitar las busquedas de piezas de un deporte que 
 
 ## Contenido
 
-Este repositorio se ha creado con los siguientes lenüajes `HTML`, `CSS`, `JS` y `PHP`. En los cuales se puede ver la base de la idea más desarrollada, con todo lo que he podido aprender hasta ahora. Se han utilizado librerias como boostrap, jquery y ajax.
+Este repositorio se ha creado con los siguientes lenguajes `HTML`, `CSS`, `JS` y `PHP`. En los cuales se puede ver la base de la idea más desarrollada, con todo lo que he podido aprender hasta ahora. Se han utilizado librerias como boostrap, jquery y ajax.
 
 ![Lenguajes](/src/img/lenguajes.png)
 
-Se pueden guardar y utilizar los datos de los nuevos productos gracias al archivo [addproduct.html](/addproduct.html), pero no es posible verlo automáticamente por falta de tiempo, la única forma por ahora sería crear manualmente los documentos con los datos de los productos nuevos.
+Los datos de los nuevos productos que se añadirán en la base de datos utilizando el archivo [addproduct.html](/addproduct.html). En el index no se pueden ver los productos y sus datos, porque por falta de tiempo, la única forma por ahora sería crear manualmente los documentos con los datos de los productos nuevos.
 
 ### Demos (Heroku y dominio a través de Freenom)
 
@@ -50,6 +50,6 @@ Erik Aguirre Lahora
 
 ## Licencia
 
-MIT License
+[MIT License](LICENSE)
 
 Copyright (c) 2022 Erik95AL
